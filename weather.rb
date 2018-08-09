@@ -29,8 +29,6 @@ def weather_city(weather)
   end 
 end 
 
-# weather_city.each do |key,value|
-#   puts "#{key} is #{value}"
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
