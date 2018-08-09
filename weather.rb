@@ -26,7 +26,6 @@ end
 
 def weather_city(weather)
   return "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit."
-  end 
 end 
 
 
