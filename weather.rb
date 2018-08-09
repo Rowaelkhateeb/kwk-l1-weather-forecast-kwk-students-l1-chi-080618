@@ -7,6 +7,7 @@
 # }
 
 # 1. Complete the method below called location, that accepts a hash called weather as an argument so that it returns the value of city from the weather hash. 
+
 def location(weather) 
   return weather[:city]
 end
@@ -20,11 +21,11 @@ end
 
 
 # 3. Using the methods above and string interpolation, update the method below so that it returns a string that describes the current weather - for example: "The weather in New York is Partly Cloudy. The temperature is 66.1 degrees Farenheit." HINT: the method should RETURN the string, not print it to the terminal. 
-def weather_city
-  return weather 
-    puts "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit"
-  end 
-end 
+# def weather_city
+#   return weather 
+#     puts "The weather in #{city} is #{description}. The temperature is #{temperature_farenheit} degrees Farenheit"
+#   end 
+# end 
 
 # weather_city.each do |key,value|
 #   puts "#{key} is #{value}"
