@@ -34,7 +34,7 @@ puts weather_report(weather)
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
 def city_weather_info(weather)
-  return "The city is #{weather[:city]}." "The description is #{weather[:description]." "The temperature is #{weather[:temperature_farenheit]}."
+  return "The city is #{weather[:city]}." "The description is #{weather[:description]}." "The temperature is #{weather[:temperature_farenheit]}."
 end 
 
 
